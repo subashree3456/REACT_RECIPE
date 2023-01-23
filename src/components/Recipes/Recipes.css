@@ -1,0 +1,63 @@
+.recipes {
+    width: 80%;
+    margin: 40px auto;
+  }
+
+
+  /* .inputs input kodutha border color varuthu */
+.recipes .inputs input{
+    border: 1px solid rgb(188, 44, 44);
+    width: 400px;
+    margin-right: 4px;
+    padding: 13px;
+}
+
+.recipes .inputs button {
+    padding: 14px;
+    margin-left: -15px;
+  }
+
+
+.recipes-results{
+    margin: 20px 0;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.recipe{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #f4f4f4;
+    width: 45%;
+    margin: 10px 10px 10px 0;
+    box-shadow: 0 00px 30px rgba(188, 44, 44, 0.084);
+}
+
+.recipe-content{
+    margin: 10px;
+}
+
+.ingredients,
+.nutritions{
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.recipe img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.recipe button {
+
+    background-color: rgb(188, 44, 44);
+    padding: 3px 7px;
+    border: none;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 3px 5px;
+
+}
